@@ -1,12 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
 
 ReactDOM.render(
-  <ol>
-    <li>Krikey</li>
-    <li>diatonic</li>
-    <li>Chrimbus</li>
-  </ol>,
+  <App />,
   document.getElementById('root')
-)
+);
